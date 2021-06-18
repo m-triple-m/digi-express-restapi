@@ -1,5 +1,5 @@
 const api_config = {
-    port: 3000,
+    port: process.env.PORT,
     conn_url: 'mongodb+srv://mmm:mmm@mystorage.v5qcz.mongodb.net/sample?retryWrites=true&w=majority'
 
 }
